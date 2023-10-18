@@ -36,7 +36,6 @@ CLOUD_PLATFORM = "cloudflare"
 # github.com/cloudflare/wrangler2/issues/27
 # developers.cloudflare.com/workers/platform/environments
 [env.prod]
-name = "basic-unbound"
 minify = true
 routes = [
   "sky.rethinkdns.com/*",
@@ -56,7 +55,6 @@ CLOUD_PLATFORM = "cloudflare"
 #------ONE-------#
 ##################
 [env.one]
-name = "dns-one"
 logpush = true
 minify = true
 routes = [
